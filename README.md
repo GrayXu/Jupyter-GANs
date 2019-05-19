@@ -9,12 +9,12 @@ Use simple **Keras** codes to help you get insights behind different GANs. The w
 ## List
 
 - DCGAN (*64\*5\*5 conv->128\*5\*5conv*)  
-  ![dcgan](http://github.com/grayxu/Jupyter-GANs/raw/master/image/dcgan.gif)
+  ![dcgan](https://raw.githubusercontent.com/GrayXu/Online-Storage/master/img/dcgan.gif)
 
 ## File
 
 name | usage
--|-|-
+-|-
 \*.ipynb | implements of GANs
 pretrained_model/* | checkpoint files
 image/* | generator's output image
