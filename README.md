@@ -1,17 +1,27 @@
-# Jupyter-GAN (Generative Adversarial Networks)
-Tensorflow (mainly Keras) implements of GANs with Jupyter Notebook
+# Jupyter-GANs (Generative Adversarial Networks)
+Tensorflow (mainly Keras) implements of GANs with Jupyter Notebook.
 
 ## Intro
 
-Use simple **Keras** codes to help you get insights behind different GANs. The whole process would show on **Jupyter Notebooks**, which means that you don't have to actually run those codes to get output results or network architectures.
+Use simple **Keras** codes to help you get insights behind different GANs. The whole process would show on **Jupyter Notebooks**, which means that you don't have to actually run those codes to get output results or network architectures.   
+**My env: tensorflow-gpu 2.0.0a0**
 
 ## List
 
-- 
+- DCGAN (*64\*5\*5 conv->128\*5\*5conv*)  
+  ![dcgan](http://github.com/grayxu/Jupyter-GANs/raw/master/image/dcgan.gif)
+
+## File
+
+name | usage
+-|-|-
+\*.ipynb | implements of GANs
+pretrained_model/* | checkpoint files
+image/* | generator's output image
 
 ## Refer
 
-[Keras-GAN from eriklindernoren](https://github.com/eriklindernoren/Keras-GAN)  
+[Keras-GAN from eriklindernoren](https://github.com/eriklindernoren/Keras-GAN), although he used Keras api, the combine-train mode still seems tricky  
 [the gan zoo](https://github.com/hindupuravinash/the-gan-zoo)  
 ![jupyter](https://jupyter.org/assets/main-logo.svg)
 <img src="https://keras.io/img/keras-logo-small.jpg" width="45" />
